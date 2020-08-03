@@ -26,15 +26,21 @@ After extraction of the Principal Components, I created a Data.frame and applied
 
 # Filtering data using Dplyr 
 In my research, I needed to choose only some labels of my data to create the Graphic of Confident Ellipses using PCA.
+
 For this, using Dplyr library, I filter the labels needed to work. Remember, you can do this for your data to, it's more simple than try to implement it directly on the graph.
+
 But, with you don't want to filter and want to create a graph with all labels, just jump this step and go directly to the Plot
 
 # Plot Confident Ellipses graph with ggplot2 library
 After choose the interest labels of my work, I started to create the Confident Ellipses graph using ggplot2 tools. 
 For this, you can use x11() to better visualize the final output. 
+
 Warning, "Systemsex" is the name of my factor column, please, change it for your factor of interest. 
+
 With you only input the data without use "scale_shape_manual" and "scale_color_manual", your output graph will be ploted in a standart way, using the levels of your factor to create it. 
+
 In my case, I put the shape I want for my labels and choose manually the colors to.
+
 Shape: Refers to form of the points in the graph.
 Color: Refers to the colors applied for the labels of your factor.
 
