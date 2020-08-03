@@ -1,6 +1,6 @@
 # ConfidentEllipses
-A script wrote in R to help you develop a graphic of Confident Ellipses applied to a Principal Component Analysis results, using Dplyr and ggplot2 libraries
-The document have comments related to any line of code wrote, so, with you have any problem in develop this, please, send me a message. 
+A script wrote in R to help you develop a graphic of Confident Ellipses applied to a Principal Component Analysis results, using Dplyr and ggplot2 libraries.
+The document have comments related to any line of code, so, with you have any problem in develop this, please, send me a message. 
 
 # Call the Library and import data used in the project
 library(ggplot2)
